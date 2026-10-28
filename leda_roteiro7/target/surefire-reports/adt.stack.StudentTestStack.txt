@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: adt.stack.StudentTestStack
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 7, Skipped: 0, Time elapsed: 0.027 s <<< FAILURE! -- in adt.stack.StudentTestStack
+adt.stack.StudentTestStack.testPop -- Time elapsed: 0.003 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "adt.stack.Stack.push(Object)" because "this.stack1" is null
+	at adt.stack.StudentTestStack.setUp(StudentTestStack.java:22)
+
+adt.stack.StudentTestStack.testTop -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "adt.stack.Stack.push(Object)" because "this.stack1" is null
+	at adt.stack.StudentTestStack.setUp(StudentTestStack.java:22)
+
+adt.stack.StudentTestStack.testPush -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "adt.stack.Stack.push(Object)" because "this.stack1" is null
+	at adt.stack.StudentTestStack.setUp(StudentTestStack.java:22)
+
+adt.stack.StudentTestStack.testPushComErro -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "adt.stack.Stack.push(Object)" because "this.stack1" is null
+	at adt.stack.StudentTestStack.setUp(StudentTestStack.java:22)
+
+adt.stack.StudentTestStack.testPopComErro -- Time elapsed: 0.003 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "adt.stack.Stack.push(Object)" because "this.stack1" is null
+	at adt.stack.StudentTestStack.setUp(StudentTestStack.java:22)
+
+adt.stack.StudentTestStack.testIsFull -- Time elapsed: 0.004 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "adt.stack.Stack.push(Object)" because "this.stack1" is null
+	at adt.stack.StudentTestStack.setUp(StudentTestStack.java:22)
+
+adt.stack.StudentTestStack.testIsEmpty -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "adt.stack.Stack.push(Object)" because "this.stack1" is null
+	at adt.stack.StudentTestStack.setUp(StudentTestStack.java:22)
+
